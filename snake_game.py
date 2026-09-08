@@ -37,7 +37,7 @@ WINDOW_HEIGHT = CANVAS_HEIGHT + HEADER_HEIGHT
 
 INITIAL_SPEED_MS = 125
 MIN_SPEED_MS = 55
-SPEED_INCREMENT = 3  # ms faster every food item
+SPEED_INCREMENT = 2  # ms faster every food item
 
 HIGH_SCORE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "highscore.json")
 
